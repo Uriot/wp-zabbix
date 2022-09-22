@@ -18,3 +18,24 @@ This plugin provides a REST API endpoint for the [Zabbix](https://www.zabbix.com
   4. Create a host in zabbix
   5. Add a macro to this host called:
      `{$WORDPRESS_CLIENT_KEY}` with the value of your generated key
+     
+## Composer Installation to WordPress-bedrock
+
+
+1. Add to Composer.json
+```
+"require": {
+        ...,
+        ...,
+        "uriot/wp-zabbix": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Uriot/wp-zabbix.git"
+        }
+    ],
+```
+and in the path of your project 
+
+`composer update`
