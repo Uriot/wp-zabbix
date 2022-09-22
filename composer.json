@@ -1,0 +1,18 @@
+{
+    "name": "uriot/wp-zabbix",
+    "description": "Zabbix client for WordPress by Sven Wappler",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "Uriot\\WpZabbix\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Elliot Urizar",
+            "email": "eurizar@maphpia.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

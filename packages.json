@@ -1,7 +1,0 @@
-{
-    "packages": {
-        "Uriot/wp-zabbix": {
-            "dev-master": { @composer.json }
-        }
-    }
-}
