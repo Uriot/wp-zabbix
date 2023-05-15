@@ -1,5 +1,6 @@
 # wp-zabbix
 Zabbix client for WordPress by [Sven Wappler](https://wappler.systems)
+Install componer by Elliot Urizar
 
 ## What does it do?
 
